@@ -43,12 +43,32 @@ h2 {
     padding: 0;
     position: fixed;
     z-index: 2;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.register {
+    display: block;
+    border-radius: 4px;
+    border-color: #373737;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 8px;
 }
 
 #top_banner ul {
     list-style-type: none;
-    margin: 0 18% 0 18%;
+    margin: 5px 18% 0 18%;
     padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.register {
+    padding: 8px;
 }
   
 #top_banner li {
@@ -58,7 +78,7 @@ h2 {
 #top_banner li a {
     display: block;
     text-align: center;
-    padding: 15px 20px 15px 20px;
+    padding: 8px;
     text-decoration: none;
 }
 
@@ -369,4 +389,17 @@ figcaption {
 
 .fa.fa-pinterest {
     padding-right: 260px;
+}
+
+.fa.fa-home {
+    padding: 0;
+}
+
+.fa.fa-chevron-down {
+    padding: 0;
+    width: 5px;
+}
+
+.fa.fa-sign-in {
+    padding: 0 0 0 90px;
 }
